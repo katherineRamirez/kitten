@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+/* Agregando imagen de fondo día soleado */
+.img-container1{
+	background-image: url(../img/sunny-day.jpg);
+	height: 673px;
+	background-size: cover;
+	
+}
+/* Estilos del gato en el paisaje día soleado */
+.img-kitten-medium{
+	margin-top: 380px;
+	margin-left: 360px;
+  align-items: center;
+  width: 30%;
+}

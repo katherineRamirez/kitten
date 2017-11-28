@@ -1,0 +1,42 @@
+/* Media query con ancho mínimo de 558px y máximo de 900px */
+@media (min-width: 568px) and (max-width: 900px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+  /* Cambiando imagen de fondo */
+	.img-container1{
+		background-image: url(../img/dawn.png);
+		background-size: cover;
+		background-position: center;
+		height: 673px;
+	}
+  /* Cambiando imagen de gato */
+	.img-kitten-medium{
+		content: url(../img/kitten-large.png);
+		margin-top: 380px;
+		margin-left: 280px;
+    align-items: center;
+    width: 50%;
+	}
+}
+/* Media query con ancho mínimo de 200px y máximo de 567px */
+@media (min-width: 200px) and (max-width: 567px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+  /* Cambiando imagen de fondo */
+	.img-container1{
+		background-image: url(../img/night.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 673px;
+	}
+  /* Cambiando imagen de gato */
+	.img-kitten-medium{
+		content: url(../img/kitten-small.png);
+		margin-top: 350px;
+		margin-left: 250px;
+    align-items: center;
+    width: 50%;
+	}
+}
